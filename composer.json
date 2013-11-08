@@ -14,7 +14,7 @@
     "require": {
         "symfony/options-resolver": "2.3.*",
         "white-october/pagerfanta-bundle": "dev-master",
-        "tactics/entity-route-bundle": "v1.0"
+        "tactics/entity-route-bundle": "dev-sfupgrade"
     },
     "autoload": {
         "psr-0": { "Tactics\\TableBundle": "" }
