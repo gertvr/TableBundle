@@ -1,24 +1,24 @@
 {
-  "name": "tactics/table-bundle",
-  "description": "HTML Table rendering with Propel integration",
-  "keywords": ["propel", "orm", "table"],
-  "type": "symfony-bundle",
-  "license": "",
-  "authors": [{
-    "name": "Aaron Muylaert",
-    "email": "aaron@tactics.be"
-  }, {
-    "name": "Gert Vrebos",
-    "email": "gert@tactics.be"
-  }],
-  "require": {
-    "symfony/options-resolver": "2.1.*",
-    "white-october/pagerfanta-bundle": "dev-master",
-    "tactics/entity-route-bundle": "v1.0"
-  },
-  "autoload": {
-    "psr-0": { "Tactics\\TableBundle": "" }
-  },
-  "target-dir": "Tactics/TableBundle",
-  "minimum-stability": "dev"
+    "name": "tactics/table-bundle",
+    "description": "HTML Table rendering with Propel integration",
+    "keywords": ["propel", "orm", "table"],
+    "type": "symfony-bundle",
+    "license": "",
+    "authors": [{
+        "name": "Aaron Muylaert",
+        "email": "aaron@tactics.be"
+    }, {
+        "name": "Gert Vrebos",
+        "email": "gert@tactics.be"
+    }],
+    "require": {
+        "symfony/options-resolver": "2.3.*",
+        "white-october/pagerfanta-bundle": "dev-master",
+        "tactics/entity-route-bundle": "v1.0"
+    },
+    "autoload": {
+        "psr-0": { "Tactics\\TableBundle": "" }
+    },
+    "target-dir": "Tactics/TableBundle",
+    "minimum-stability": "dev"
 }
