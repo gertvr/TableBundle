@@ -70,6 +70,7 @@ class TableTest extends \PHPUnit_Framework_TestCase
         $columns = $iterator->getArrayCopy();
 
         $this->assertEquals($column, end($columns));
+        $this->assertEquals(true, false);
     }
 
     /**
